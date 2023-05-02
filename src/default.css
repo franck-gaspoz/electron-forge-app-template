@@ -6,3 +6,15 @@ body {
   max-width: 38rem;
   padding: 2rem;
 }
+
+h1 {
+  color: dodgerblue;
+}
+
+.hsep {
+  display: block;
+  height: 1px;
+  background: linear-gradient(to right, red, orange,yellow, green, cyan, blue, violet);
+  margin-bottom: 2em;
+  border: transparent solid 1px;
+}
