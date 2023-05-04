@@ -2,15 +2,16 @@
 
 ___
 
-This project is a NodeJs Electron Forge TypeScript application that actually displays a simple web page, provided by the electron application. Everything is already configured and ready to run. It is delivered in a template repository
+This project is a Node.Js Electron Forge TypeScript application that actually displays a simple web page, provided by the electron application. Everything is already configured and ready to run. It is delivered in a template repository
 
 usage:
 
 ``` shell
 // clone the repo
-git clone https://github.com/franck-gaspoz/electron-forge-app-template.git
+git clone https://github.com/franck-gaspoz/electron-forge-app-template.
 
-// run the application
+// prepare and run the application
+yarn install
 yarn start
 ```
 
