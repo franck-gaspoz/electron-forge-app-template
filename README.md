@@ -8,7 +8,7 @@ This project is a **Node.Js Electron Forge TypeScript** application that actuall
 
 usage:
 
-    📝 command sequences for the shell (adapt to yours, here windows/dos)
+📝 command sequences for the shell (adapt to yours, here windows/dos)
 
 **prepare and run**
 
