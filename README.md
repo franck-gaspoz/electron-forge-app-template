@@ -2,18 +2,35 @@
 
 ___
 
+![project illustration](https://raw.githubusercontent.com/franck-gaspoz/electron-forge-app-template/main/assets/Node%20JS%20Electron%20Forge%20sample%20app.png)
+
 This project is a Node.Js Electron Forge TypeScript application that actually displays a simple web page, provided by the electron application. Everything is already configured and ready to run. It is delivered in a template repository
 
 usage:
+
+**prepare and run**
 
 ``` shell
 // clone the repo
 git clone https://github.com/franck-gaspoz/electron-forge-app-template.
 
+cd electron-forge-app-template
+
 // prepare and run the application
 yarn install
 yarn start
 ```
+
+**develop &amp; debug**
+
+``` shell
+cd electron-forge-app-template
+code .
+```
+
+**debug**
+
+Run and Debug ▶️ Main + render
 
 ___
 
