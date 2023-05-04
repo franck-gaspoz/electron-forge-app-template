@@ -4,19 +4,24 @@ ___
 
 ![project illustration](https://raw.githubusercontent.com/franck-gaspoz/electron-forge-app-template/main/assets/Node%20JS%20Electron%20Forge%20sample%20app.png)
 
-This project is a Node.Js Electron Forge TypeScript application that actually displays a simple web page, provided by the electron application. Everything is already configured and ready to run. It is delivered in a template repository
+This project is a **Node.Js Electron Forge TypeScript** application that actually displays a simple web page, provided by the electron application. Everything is already configured and ready to run. It is delivered in a template repository
 
 usage:
+
+    📝 command sequences for the shell (adapt to yours, here windows/dos)
 
 **prepare and run**
 
 ``` shell
-// clone the repo
+
+# clone the template repo
+
 git clone https://github.com/franck-gaspoz/electron-forge-app-template.
 
 cd electron-forge-app-template
 
-// prepare and run the application
+# prepare and run the application
+
 yarn install
 yarn start
 ```
@@ -37,20 +42,21 @@ ___
 ## Development notes
 ### How to reconstruct the project from void
 
-install/update nodejs (windows: download nodejs last version [>=20])
-example: <https://nodejs.org/dist/v20.0.0/node-v20.0.0-x64.msi>
+install/update nodejs (for windows: download nodejs last version [>=20], for example: <https://nodejs.org/dist/v20.0.0/node-v20.0.0-x64.msi>)
+
+📝 command sequence for the shell (adapt to yours, here windows/dos)
 
 ``` shell
-// from the shell running with admin privileges
+# from the shell running with admin privileges
 
 cd C:\Program Files\nodejs
 
 corepack enable
 
-@rem update global yarn version
+# update global yarn version
 corepack prepare yarn@stable --activate
 
-@rem update yarn
+# update yarn
 yarn set version stable
 
 cd {projetFolderParentFolder}
@@ -58,7 +64,8 @@ yarn create electron-app my-app --template=webpack-typescript
 
 npm install electron --save-dev
 
-yarn start
+# optional
+#yarn start
 
 ```
 
