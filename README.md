@@ -1,13 +1,30 @@
-# electron-test-project
+# Electron Forge application template
 
 ___
 
-## setup a sample project
+This project is a NodeJs Electron Forge TypeScript application that actually displays a simple web page, provided by the electron application. Everything is already configured and ready to run. It is delivered in a template repository
+
+usage:
+
+``` shell
+// clone the repo
+git clone https://github.com/franck-gaspoz/electron-forge-app-template.git
+
+// run the application
+yarn start
+```
+
+___
+
+## Development notes
+### How to reconstruct the project from void
 
 install/update nodejs (windows: download nodejs last version [>=20])
 example: <https://nodejs.org/dist/v20.0.0/node-v20.0.0-x64.msi>
 
 ``` shell
+// from the shell running with admin privileges
+
 cd C:\Program Files\nodejs
 
 corepack enable
@@ -19,7 +36,7 @@ corepack prepare yarn@stable --activate
 yarn set version stable
 
 cd {projetFolderParentFolder}
-yarn create electron-app my-app --template=webpack
+yarn create electron-app my-app --template=webpack-typescript
 
 npm install electron --save-dev
 
@@ -29,7 +46,9 @@ yarn start
 
 ___
 
-## setup debug in vscode
+## Setup debug in vscode
+
+This is a part of the application template.
 
 ``` json
 {
